@@ -1,0 +1,29 @@
+.row{
+  display: flex;
+  flex-direction: row;
+  margin:0;
+  justify-content: center;
+}
+.field{
+  display: flex;
+  flex-direction: column;
+
+}
+.unvisible{
+  display: none;
+}
+button{
+  width: 40px;
+  height: 40px;
+  margin:0
+}
+button>p{
+  margin:0
+}
+.reset{
+  width: 120px;
+  height: 20px;
+  margin: 3px;
+
+}
+

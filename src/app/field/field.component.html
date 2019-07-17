@@ -1,0 +1,10 @@
+  <div class="field">
+    <ul class="row" *ngFor="let row of fieldService.field;let i = index" >
+      <button appColl  *ngFor="let cell of row;let j = index" [collContain]="cell['contain']" class="cell" (click)="cellClick(cell['contain'],i,j)"><p [@showContain]="animationState" [class.unvisible]="!cell['visibility']">{{cell['contain']}}</p></button>
+    </ul>
+    <div class="form">
+      <app-generate-field-form></app-generate-field-form>
+      <button class="reset" (click)="reset()">RESET</button>
+    </div>
+
+</div>

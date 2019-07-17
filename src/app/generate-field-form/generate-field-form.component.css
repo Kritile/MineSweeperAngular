@@ -1,0 +1,12 @@
+.generate-field-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top:20px
+}
+.generate-field-form>input,.generate-field-form>button{
+  width: 120px;
+  height: 20px;
+  margin: 3px;
+  margin-left: 0;
+}
